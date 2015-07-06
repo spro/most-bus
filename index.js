@@ -18,12 +18,12 @@ bus = function(initial) {
   };
   b$.end = function() {
     return setImmediate(function() {
-      return typeof _end === "function" ? _end(v) : void 0;
+      return typeof _end === "function" ? _end() : void 0;
     });
   };
-  b$.error = function() {
+  b$.error = function(e) {
     return setImmediate(function() {
-      return typeof _error === "function" ? _error(v) : void 0;
+      return typeof _error === "function" ? _error(e) : void 0;
     });
   };
   b$.plug = function(v$) {
