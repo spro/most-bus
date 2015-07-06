@@ -19,6 +19,9 @@ bus$.plug odd$
 bus$.plug even$
 unplug_hello = bus$.plug hello$ # .plug returns an unplug function
 
+# Push something directly onto the bus
+bus$.push 'something'
+
 # Unplug a stream
 setTimeout unplug_hello, 900
 ```
