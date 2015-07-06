@@ -7,9 +7,9 @@ bus = (initial) ->
     b$.push = (v) ->
         setImmediate -> _add? v
     b$.end = ->
-        setImmediate -> _end? v
-    b$.error = ->
-        setImmediate -> _error? v
+        setImmediate -> _end?()
+    b$.error = (e) ->
+        setImmediate -> _error? e
     b$.plug = (v$) ->
         w$ = bus() # Endable wrapper
         v$.forEach w$.push # Forward values to wrapper
