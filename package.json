@@ -1,0 +1,21 @@
+{
+    "name": "most-bus",
+    "version": "0.0.1",
+    "description": "A pushable, pluggable Most stream",
+    "homepage": "http://github.com/spro/most-bus",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/spro/most-bus.git"
+    },
+    "author": {
+        "name": "Sean Robertson",
+        "url": "http://github.com/spro/"
+    },
+    "keywords": ["most"],
+    "scripts": {
+        "prepublish": "coffee -c --bare -o . src"
+    },
+    "dependencies": {
+        "most": "0.14.x"
+    }
+}
