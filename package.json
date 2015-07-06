@@ -13,7 +13,7 @@
     },
     "keywords": ["most", "bus"],
     "scripts": {
-        "prepublish": "coffee -c --bare -o . src"
+        "prepublish": "coffee -c --bare -o . src/index.coffee"
     },
     "dependencies": {
         "most": "0.14.x"
