@@ -1,5 +1,5 @@
 # most-bus
-A pushable, pluggable stream for Most.js
+A pushable, pluggable stream for [Most.js](https://github.com/cujojs/most)
 
 # Usage
 
