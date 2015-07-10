@@ -1,5 +1,8 @@
 most = require 'most'
 
+if !setImmediate?
+    setImmediate = (f) -> setTimeout f, 0
+
 bus = (initial) ->
     _add = _end = _error = null
     b$ = most.create (add, end, error) ->

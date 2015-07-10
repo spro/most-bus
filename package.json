@@ -1,6 +1,6 @@
 {
     "name": "most-bus",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A pushable, pluggable stream for Most.js",
     "homepage": "http://github.com/spro/most-bus",
     "repository": {
