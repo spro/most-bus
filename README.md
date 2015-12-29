@@ -1,5 +1,5 @@
 # most-bus
-A pushable, pluggable stream for [Most.js](https://github.com/cujojs/most)
+A pushable, pluggable stream for [Most.js](https://github.com/cujojs/most). Deprecated - you should use [most-subject](https://github.com/TylorS/most-subject) instead.
 
 # Usage
 
